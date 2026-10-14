@@ -1,29 +1,33 @@
 # CodeAlpha Python Programming Tasks
 
-This bundle contains three separate beginner-friendly Python projects based on the supplied CodeAlpha task sheet.
+This repository contains three beginner-friendly Python projects based on the CodeAlpha task sheet.
 
 ## Projects
-1. `CodeAlpha_HangmanGame/main.py` — console Hangman game (5 predefined words, maximum 6 wrong guesses).
-2. `CodeAlpha_StockPortfolioTracker/main.py` — calculates a portfolio total using hardcoded example prices; optionally exports a CSV.
-3. `CodeAlpha_TaskAutomation/main.py` — moves `.jpg` and `.jpeg` files from a selected folder to a destination folder.
+
+1. **Hangman Game** — `main.py` (console game with 5 predefined words and up to 6 incorrect guesses).
+2. **Stock Portfolio Tracker** — `CodeAlpha_StockPortfolioTracker/main.py` (calculates portfolio value using hardcoded example prices and optionally exports a CSV).
+3. **Task Automation: JPG Organizer** — `CodeAlpha_TaskAutomation/main.py` (moves JPG/JPEG files from a chosen source folder to a destination folder).
 
 ## Requirements
+
 - Python 3.10 or later
 - No third-party packages required
 
 ## Run
-Open a terminal in the relevant project folder and run:
+
+Run Hangman from the repository root:
 
 ```bash
 python main.py
 ```
 
-On some systems, use `python3 main.py`.
+Run the other projects from their respective folders:
 
-## GitHub submission
-Create separate repositories named:
-- `CodeAlpha_HangmanGame`
-- `CodeAlpha_StockPortfolioTracker`
-- `CodeAlpha_TaskAutomation`
+```bash
+python CodeAlpha_StockPortfolioTracker/main.py
+python CodeAlpha_TaskAutomation/main.py
+```
 
-Upload each project's `main.py` and optionally add this README (or create a project-specific README). The stock prices are hardcoded examples, not live market data.
+On some systems, use `python3` instead of `python`.
+
+**Note:** Stock prices are hardcoded examples, not live market data.
