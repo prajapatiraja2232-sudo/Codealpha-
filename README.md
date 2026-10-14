@@ -4,9 +4,9 @@ This repository contains three beginner-friendly Python projects based on the Co
 
 ## Projects
 
-1. **Hangman Game** — `main.py` (console game with 5 predefined words and up to 6 incorrect guesses).
-2. **Stock Portfolio Tracker** — `CodeAlpha_StockPortfolioTracker/main.py` (calculates portfolio value using hardcoded example prices and optionally exports a CSV).
-3. **Task Automation: JPG Organizer** — `CodeAlpha_TaskAutomation/main.py` (moves JPG/JPEG files from a chosen source folder to a destination folder).
+1. **Hangman Game** — `CodeAlpha_HangmanGame/main.py`: console game with 5 predefined words and a maximum of 6 incorrect guesses.
+2. **Stock Portfolio Tracker** — `CodeAlpha_StockPortfolioTracker/main.py`: calculates portfolio value using hardcoded example prices and optionally exports a CSV.
+3. **Task Automation: JPG Organizer** — `CodeAlpha_TaskAutomation/main.py`: moves JPG/JPEG files from a chosen source folder to a destination folder.
 
 ## Requirements
 
@@ -15,15 +15,10 @@ This repository contains three beginner-friendly Python projects based on the Co
 
 ## Run
 
-Run Hangman from the repository root:
+From the repository root, run any project with:
 
 ```bash
-python main.py
-```
-
-Run the other projects from their respective folders:
-
-```bash
+python CodeAlpha_HangmanGame/main.py
 python CodeAlpha_StockPortfolioTracker/main.py
 python CodeAlpha_TaskAutomation/main.py
 ```
